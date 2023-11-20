@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df425a30-72f8-47e9-b58e-96bbe0fd08c3" name="Changes" comment="[SUP_v5_Logger_5.2]">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/WebsiteTitleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebsiteTitleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/shouldCheckWebsiteTitleParameters.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/shouldCheckWebsiteTitleParameters.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

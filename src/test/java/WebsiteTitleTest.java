@@ -1,18 +1,15 @@
-import org.junit.jupiter.api.Tag;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+@Slf4j
 public class WebsiteTitleTest extends TestBase {
 
-    private Logger log = LoggerFactory.getLogger("WebsiteTitleTest.class");
 
     @ParameterizedTest(name = "Test {index}: {2}")
     @CsvFileSource(resources = "shouldCheckWebsiteTitleParameters.csv")
-    @Tag("REGRESSION")
     public void shouldCheckWebsiteTitle(String url, String expectedTitle, String testName) {
         log.info("Start test: " + testName);
         driver.get(url);
